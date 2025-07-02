@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 public class Utils {
 
     public static RequestSpecification req;
-
+//kdiekkd dkiek
     public RequestSpecification requestSpecification() throws IOException {
         if (req == null) {
             FileInputStream fis = new FileInputStream("src/test/java/resources/global.properties");
